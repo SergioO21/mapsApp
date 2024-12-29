@@ -30,6 +30,7 @@
 	<span class="form-label">
 		Zoom: {{ zoomRange | number: "1.0-2" }}%
 		<br />
-		Lng, Lat: {{ "Any" }}
+		Lng, Lat: {{ currentLocation.lng | number: "2.2-2" }}
+		{{ currentLocation.lat | number: "2.2-2" }}
 	</span>
 </div>
