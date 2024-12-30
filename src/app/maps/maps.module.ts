@@ -3,7 +3,7 @@ import { CommonModule } from "@angular/common";
 
 import mapboxgl from "mapbox-gl";
 mapboxgl.accessToken =
-	"pk.eyJ1Ijoic2VyZ2lvbzIxIiwiYSI6ImNtMmoyczRwbjAxNmUya29vbHZ4NWNkajMifQ.tyMb0E3fg0G3mq2tDZ2T1A";
+	"pk.eyJ1Ijoic2VyZ2lvbzIxIiwiYSI6ImNtNWFibW5nZjNqdjgyc3EyODIyY3Bpa2EifQ.3NfQCxiocpHDLwfsVZOdcQ";
 
 import { MapsRoutingModule } from "./maps-routing.module";
 import { MiniMapComponent, SideMenuComponent } from "./components";
