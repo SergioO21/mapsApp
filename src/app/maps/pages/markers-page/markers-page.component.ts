@@ -63,6 +63,7 @@ export class MarkersPageComponent implements AfterViewInit, OnDestroy {
 			.addTo(this.map);
 
 		this.markers.push({ color, marker });
+		marker.on("dragend", () => this.saveToLocalStorage());
 	}
 
 	deleteMarker(index: number): void {
