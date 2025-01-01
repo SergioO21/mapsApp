@@ -15,8 +15,8 @@
 
       <div class="row">
         <!-- Houses -->
-        <div *ngFor="let house of houses" class="col-4 mb-2">
-          <div class="card">
+        <div *ngFor="let house of houses" class="card-group col-4 mb-3">
+          <div class="card h-auto">
             <app-mini-map [lngLat]="house.lngLat"/>
             <div class="card-body">
               <h5 class="card-title">{{ house.title }}</h5>
